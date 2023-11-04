@@ -24,6 +24,8 @@ const Services = () => {
 
   const isInView = useInView(ref, { margin: "-100px" });
 
+  const contact = 'Contact'
+
   return (
     <motion.div
       className="services"
@@ -52,7 +54,11 @@ const Services = () => {
           <h1>
             <motion.b whileHover={{color:"orange"}}>And Beautiful</motion.b> Web Apps.
           </h1>
-          <button>WHAT I DO?</button>
+          <button
+            onClick={() => {
+              window.location.href = `#${contact}`;
+            }}
+          >WHAT I DO?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -66,7 +72,11 @@ const Services = () => {
             using React, Angular and other related frameworks and libraries,<br />
             to create responsive and beautiful websites and web applications.
           </p>
-          <button>Go</button>
+          <button
+            onClick={() => {
+              window.location.href = `#${contact}`;
+            }}
+          >Go</button>
         </motion.div>
         <motion.div
           className="box"
@@ -78,7 +88,11 @@ const Services = () => {
             using NodeJS, ExpressJS and other related technologies and libraries.<br />
             MySQL and MongoDB for database management.
           </p>
-          <button>Go</button>
+          <button
+            onClick={() => {
+              window.location.href = `#${contact}`;
+            }}
+          >Go</button>
         </motion.div>
         {/* <motion.div
           className="box"
