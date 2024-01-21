@@ -6,7 +6,7 @@ const Clients = () => {
 		<div className='clientSection'>
 				<div className='clientTextWrapper'>
 					<h2 className='clientTitle'>Clients</h2>
-					<p className='clientText'>I’ve been building apps for clients around the world</p>
+					<p className='clientText'>I’ve been building and maintaining web apps for clients around the world</p>
 				</div>
 
 				<div className='clientRow'>
